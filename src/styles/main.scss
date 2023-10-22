@@ -198,6 +198,10 @@ h1 {
   padding: 10px 20px;
 }
 
+.control-button i {
+  font-size: 24px;  
+}
+
 @media screen and (max-width: 768px) {
   .mobile-controls {
     display: flex;
