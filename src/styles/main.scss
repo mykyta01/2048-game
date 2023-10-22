@@ -86,7 +86,6 @@ body {
   width: 100%;
   justify-content: space-between;
   margin-bottom: 24px;
-  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -121,6 +120,7 @@ h1 {
 
 .controls {
   display: flex;
+  text-align: center;
 }
 
 .button {
