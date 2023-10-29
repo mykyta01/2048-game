@@ -79,6 +79,8 @@ body {
   background: #bbada0;
   border-spacing: 10px;
   border-radius: 5px;
+  width: 400px;
+  height: 400px;
 }
 
 .game-header {
@@ -87,6 +89,13 @@ body {
   justify-content: space-between;
   margin-bottom: 24px;
   box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
 }
 
 h1 {
@@ -169,13 +178,6 @@ h1 {
   display: none;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 350px;
-}
-
 .message-win {
   background: #edc22e;
   color: #f9f6f2;
@@ -211,7 +213,7 @@ h1 {
   }
 
   .start {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .restart {
